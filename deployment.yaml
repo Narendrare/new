@@ -21,9 +21,10 @@ spec:
         app: test
     spec:
       containers:
-      - image: test:latest
+      - image: 011701854391.dkr.ecr.us-east-2.amazonaws.com/test
         imagePullPolicy: Always
         name: test
         ports:
-        - containerPort: 80
+        - containerPort: 8080
           protocol: TCP
+
